@@ -1,13 +1,29 @@
+> DRAFT v0 -- NOT LEGAL ADVICE -- MUST BE REVIEWED BY AUSTRALIAN COUNSEL BEFORE USE.
+> This README documents an in-progress migration from FSL-1.1-ALv2 to BUSL-1.1.
+
 # HyperI Licensing
 
 **Single Source of Truth** for standard licensing, contribution, and security policy files included in every HyperI GitHub repository.
+
+## Notice
+
+Licensed under BUSL-1.1 (see [LICENSE](LICENSE)). Additional terms: the
+AFFILIATE rider ([LICENSE-RIDER-AFFILIATE.md](LICENSE-RIDER-AFFILIATE.md)),
+the AUSTRALIA rider ([LICENSE-RIDER-AUSTRALIA.md](LICENSE-RIDER-AUSTRALIA.md)),
+and the AI-TRAINING-POLICY ([AI-TRAINING-POLICY.md](AI-TRAINING-POLICY.md)).
+Each additional instrument is independently severable: it operates alongside
+the LICENSE, is not incorporated into the BUSL-1.1 grant, and a holding that
+any one instrument is invalid does not affect the LICENSE, the Additional Use
+Grant, or any other instrument.
 
 ## Files
 
 | File | Purpose |
 |------|---------|
-| [`LICENSE`](LICENSE) | FSL-1.1-ALv2 license with Australian law notice and AI/ML restriction |
-| [`AI-TRAINING-POLICY.md`](AI-TRAINING-POLICY.md) | AI / Machine Learning training restriction policy |
+| [`LICENSE`](LICENSE) | Business Source License 1.1 (BUSL-1.1) -- verbatim frame, four parameters, and the Additional Use Grant |
+| [`LICENSE-RIDER-AFFILIATE.md`](LICENSE-RIDER-AFFILIATE.md) | Affiliate / corporate-group terms (separable rider) |
+| [`LICENSE-RIDER-AUSTRALIA.md`](LICENSE-RIDER-AUSTRALIA.md) | Australian-law overlay (separable rider) |
+| [`AI-TRAINING-POLICY.md`](AI-TRAINING-POLICY.md) | AI / Machine Learning terms (separate, severable instrument) |
 | [`COMMERCIAL.md`](COMMERCIAL.md) | Commercial licensing requirements and corporate group rules |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contribution guidelines (DCO, Conventional Commits, semantic-release) |
 | [`SECURITY.md`](SECURITY.md) | Vulnerability disclosure policy |
@@ -15,12 +31,13 @@
 
 ## License Summary
 
-HyperI projects are licensed under the **Functional Source License, Version 1.1, ALv2 Future License** (FSL-1.1-ALv2).
+HyperI projects are licensed under the **Business Source License 1.1** (SPDX: BUSL-1.1).
 
-- **Permitted**: Internal use, self-hosting, non-commercial education and research
-- **Requires commercial licence**: SaaS/PaaS to third parties, OEM embedding, reselling, intra-group hosting
-- **AI/ML training**: Not permitted without written consent (see [AI-TRAINING-POLICY.md](AI-TRAINING-POLICY.md))
-- **Apache 2.0 conversion**: Each version becomes Apache 2.0 on the second anniversary of its release
+- **Default grant**: Copy, modify, create derivative works, redistribute, and non-production use
+- **Production use permitted by the Additional Use Grant**, except for providing the software to third parties as a Hosted Service (SaaS / PaaS / managed service)
+- **Requires commercial licence**: Hosted/managed service to third parties, OEM embedding, reselling, intra-group hosting
+- **AI/ML training**: Not permitted without written consent (separate severable instrument; see [AI-TRAINING-POLICY.md](AI-TRAINING-POLICY.md))
+- **Apache 2.0 conversion**: Each version becomes Apache 2.0 on its Change Date (the third anniversary of that version's release; per-version rolling)
 
 See [COMMERCIAL.md](COMMERCIAL.md) for full details on when a commercial licence is required.
 
@@ -32,10 +49,16 @@ These files are the canonical source for all HyperI repositories. To set up a ne
 # Clone and copy to your new repository
 git clone https://github.com/hyperi-io/licensing.git /tmp/licensing
 cp /tmp/licensing/LICENSE /tmp/licensing/COMMERCIAL.md \
+   /tmp/licensing/LICENSE-RIDER-AFFILIATE.md \
+   /tmp/licensing/LICENSE-RIDER-AUSTRALIA.md \
    /tmp/licensing/CONTRIBUTING.md /tmp/licensing/SECURITY.md \
    /tmp/licensing/AI-TRAINING-POLICY.md /tmp/licensing/robots.txt \
    /path/to/new-repo/
 ```
+
+Each consuming repository must then fill in the per-repo `LICENSE`
+parameters (Licensed Work and the per-version Change Date = release date plus
+three years) as described in the comment block at the top of `LICENSE`.
 
 ### PyPI / Python Packages
 
@@ -44,12 +67,14 @@ in your package metadata:
 
 ```toml
 [project]
-license = "LicenseRef-FSL-1.1-ALv2-NoAI"
-license-files = ["LICENSE", "COMMERCIAL.md", "AI-TRAINING-POLICY.md"]
+license = "LicenseRef-BUSL-1.1-HyperI"
+license-files = ["LICENSE", "LICENSE-RIDER-AFFILIATE.md", "LICENSE-RIDER-AUSTRALIA.md", "COMMERCIAL.md", "AI-TRAINING-POLICY.md"]
 classifiers = ["License :: Other/Proprietary License"]
 
 [project.urls]
 "License" = "https://github.com/hyperi-io/licensing/blob/main/LICENSE"
+"Affiliate Rider" = "https://github.com/hyperi-io/licensing/blob/main/LICENSE-RIDER-AFFILIATE.md"
+"Australia Rider" = "https://github.com/hyperi-io/licensing/blob/main/LICENSE-RIDER-AUSTRALIA.md"
 "AI Training Policy" = "https://github.com/hyperi-io/licensing/blob/main/AI-TRAINING-POLICY.md"
 "Commercial Licensing" = "https://github.com/hyperi-io/licensing/blob/main/COMMERCIAL.md"
 ```
@@ -107,8 +132,8 @@ This must be done before **April 24, 2026** when GitHub's new TOS
 
 ## Notes
 
-- The `LICENSE` file references the canonical FSL-1.1-ALv2 at [fsl.software](https://fsl.software)
-- Release dates for Apache 2.0 conversion are tracked via GitHub releases in each project
+- The `LICENSE` file reproduces the canonical Business Source License 1.1 (SPDX: BUSL-1.1) verbatim, with only the four parameters and the Additional Use Grant filled in
+- Release dates for the per-version Apache 2.0 conversion (Change Date = release date plus three years) are tracked via GitHub releases in each project
 - Copyright year should be updated if creating repos in future years
 - All files reference HYPERI PTY LIMITED (ABN 31 622 581 748)
 - The `robots.txt` is sourced from [ai-robots-txt/ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt)
