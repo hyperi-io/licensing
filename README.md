@@ -4,22 +4,21 @@
 
 ## Notice
 
-The default public license is BUSL-1.1 (see [LICENSE](LICENSE)). Separate
-instruments operate alongside, but are not incorporated into, the BUSL-1.1 grant:
-the AFFILIATE annexure ([LICENSE-ANNEXURE-AFFILIATE.md](LICENSE-ANNEXURE-AFFILIATE.md))
-and the AI-TRAINING-POLICY ([AI-TRAINING-POLICY.md](AI-TRAINING-POLICY.md)).
+The default public license is BUSL-1.1 (see [LICENSE](LICENSE)). The Affiliate
+and Australia annexures are consolidated into [LICENSE](LICENSE) as
+clearly-delineated, independently-severable sections that operate alongside
+(and do not amend) the BUSL-1.1 grant. The AI training terms remain a separate
+severable instrument ([AI-TRAINING-POLICY.md](AI-TRAINING-POLICY.md)).
 
-The AUSTRALIA annexure ([LICENSE-ANNEXURE-AUSTRALIA.md](LICENSE-ANNEXURE-AUSTRALIA.md))
-is a jurisdiction-specific overlay only for recipients to whom Australian law
+The Australia annexure (a section within [LICENSE](LICENSE)) is a
+jurisdiction-specific overlay only for recipients to whom Australian law
 applies. It is not part of the default public license grant.
 
 ## Files
 
 | File | Purpose |
 |------|---------|
-| [`LICENSE`](LICENSE) | Business Source License 1.1 (BUSL-1.1) -- verbatim frame, HyperI parameters, and the Additional Use Grant |
-| [`LICENSE-ANNEXURE-AFFILIATE.md`](LICENSE-ANNEXURE-AFFILIATE.md) | Affiliate / corporate-group terms (separable annexure) |
-| [`LICENSE-ANNEXURE-AUSTRALIA.md`](LICENSE-ANNEXURE-AUSTRALIA.md) | Australian-law overlay for recipients to whom Australian law applies |
+| [`LICENSE`](LICENSE) | Business Source License 1.1 (BUSL-1.1) -- verbatim frame, HyperI parameters, the Additional Use Grant, and the Affiliate + Australia annexures as delineated, independently-severable sections |
 | [`AI-TRAINING-POLICY.md`](AI-TRAINING-POLICY.md) | AI / Machine Learning terms (separate, severable instrument) |
 | [`COMMERCIAL.md`](COMMERCIAL.md) | Commercial licensing requirements and corporate group rules |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contribution guidelines (DCO, Conventional Commits, semantic-release) |
@@ -47,19 +46,16 @@ These files are the canonical source for all HyperI repositories. To set up a ne
 # Clone and copy to your new repository
 git clone https://github.com/hyperi-io/licensing.git /tmp/licensing
 cp /tmp/licensing/LICENSE /tmp/licensing/COMMERCIAL.md \
-   /tmp/licensing/LICENSE-ANNEXURE-AFFILIATE.md \
    /tmp/licensing/CONTRIBUTING.md /tmp/licensing/SECURITY.md \
    /tmp/licensing/AI-TRAINING-POLICY.md /tmp/licensing/robots.txt \
    /path/to/new-repo/
 ```
 
 The `LICENSE` is self-contained: the Licensed Work is the software, source code,
-documentation, and associated materials in the receiving repository, and each
+documentation, and associated materials in the receiving repository; each
 version converts on the third anniversary of its first public distribution under
-BUSL-1.1.
-
-Copy `LICENSE-ANNEXURE-AUSTRALIA.md` only where the repository needs to publish
-the Australian-law overlay for recipients to whom Australian law applies.
+BUSL-1.1; and the Affiliate and Australia annexures travel with it as sections of
+the same file.
 
 ### PyPI / Python Packages
 
@@ -69,13 +65,11 @@ in your package metadata:
 ```toml
 [project]
 license = "LicenseRef-BUSL-1.1-HyperI"
-license-files = ["LICENSE", "LICENSE-ANNEXURE-AFFILIATE.md", "COMMERCIAL.md", "AI-TRAINING-POLICY.md"]
+license-files = ["LICENSE", "COMMERCIAL.md", "AI-TRAINING-POLICY.md"]
 classifiers = ["License :: Other/Proprietary License"]
 
 [project.urls]
 "License" = "https://github.com/hyperi-io/licensing/blob/main/LICENSE"
-"Affiliate Annexure" = "https://github.com/hyperi-io/licensing/blob/main/LICENSE-ANNEXURE-AFFILIATE.md"
-"Australian Law Overlay" = "https://github.com/hyperi-io/licensing/blob/main/LICENSE-ANNEXURE-AUSTRALIA.md"
 "AI Training Policy" = "https://github.com/hyperi-io/licensing/blob/main/AI-TRAINING-POLICY.md"
 "Commercial Licensing" = "https://github.com/hyperi-io/licensing/blob/main/COMMERCIAL.md"
 ```
