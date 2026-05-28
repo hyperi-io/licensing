@@ -15,7 +15,7 @@ NOT incorporated into, and are NOT a condition of, the grant under the
 Business Source License 1.1 (the "License") in the [LICENSE](LICENSE) file.**
 The License text contains no AI or machine-learning terms. This policy stands
 alongside the License and the other separable instruments (the Affiliate
-Rider and the Australia Rider).
+Annexure and the Australia Annexure).
 
 ## No AI Training
 
@@ -89,7 +89,7 @@ Any person or organisation found to be in violation of this policy may be
 subject to legal action and may be held liable for any resulting damages.
 
 This policy is a separate instrument that operates alongside the
-[LICENSE](LICENSE) file, the Affiliate Rider, and the Australia Rider. It is
+[LICENSE](LICENSE) file, the Affiliate Annexure, and the Australia Annexure. It is
 not incorporated into the License and is not a condition of the grant under
 the License.
 
@@ -97,7 +97,7 @@ the License.
 
 These AI terms are a separate instrument. If any AI provision is held invalid
 or unenforceable, that holding does not affect the validity or enforceability
-of the License, the Additional Use Grant, or any other Rider.
+of the License, the Additional Use Grant, or any other Annexure.
 
 ## Applicable Law
 
@@ -105,7 +105,7 @@ This policy is governed by the laws of the Australian Capital Territory,
 Australia. The Australian-law overlay applicable to HyperI's licensing
 (including the Australian Consumer Law position, the section 64A liability
 limitation, and dispute resolution) is set out in the separable Australia
-Rider (LICENSE-RIDER-AUSTRALIA.md).
+Annexure (LICENSE-ANNEXURE-AUSTRALIA.md).
 
 ## Contact
 

@@ -30,7 +30,7 @@ if you want to:
   as part of a resale arrangement to third parties
 - **Intra-Group Service Provider**: Operate the software on behalf of other
   entities in your corporate group as a shared or centralised service (see
-  Corporate Groups and Affiliates below, and the Affiliate Rider)
+  Corporate Groups and Affiliates below, and the Affiliate Annexure)
 
 ## When You Don't Need a Commercial License
 
@@ -50,13 +50,13 @@ Source License and its Additional Use Grant, including:
 > Additional Use Grant extends this to production use except for a Hosted
 > Service. "Third parties" in the Additional Use Grant does not include your
 > own employees and contractors acting on your behalf (see the Affiliate
-> Rider).
+> Annexure).
 
 ## Corporate Groups and Affiliates
 
 **"Internal use" means use within a single legal entity.** The detailed
-affiliate / corporate-group terms are set out in the separable Affiliate Rider
-(LICENSE-RIDER-AFFILIATE.md). In summary:
+affiliate / corporate-group terms are set out in the separable Affiliate Annexure
+(LICENSE-ANNEXURE-AFFILIATE.md). In summary:
 
 ### Multiple Entities Using Independently
 
@@ -117,8 +117,8 @@ terms are in the separately maintained instruments, each independently
 severable:
 
 - [LICENSE](LICENSE) -- Business Source License 1.1 and the Additional Use Grant
-- [LICENSE-RIDER-AFFILIATE.md](LICENSE-RIDER-AFFILIATE.md) -- affiliate / group terms
-- [LICENSE-RIDER-AUSTRALIA.md](LICENSE-RIDER-AUSTRALIA.md) -- Australian-law overlay
+- [LICENSE-ANNEXURE-AFFILIATE.md](LICENSE-ANNEXURE-AFFILIATE.md) -- affiliate / group terms
+- [LICENSE-ANNEXURE-AUSTRALIA.md](LICENSE-ANNEXURE-AUSTRALIA.md) -- Australian-law overlay
 - [AI-TRAINING-POLICY.md](AI-TRAINING-POLICY.md) -- AI / machine-learning terms
 
 ## Future Open Source Conversion

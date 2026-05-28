@@ -8,8 +8,8 @@
 ## Notice
 
 Licensed under BUSL-1.1 (see [LICENSE](LICENSE)). Additional terms: the
-AFFILIATE rider ([LICENSE-RIDER-AFFILIATE.md](LICENSE-RIDER-AFFILIATE.md)),
-the AUSTRALIA rider ([LICENSE-RIDER-AUSTRALIA.md](LICENSE-RIDER-AUSTRALIA.md)),
+AFFILIATE annexure ([LICENSE-ANNEXURE-AFFILIATE.md](LICENSE-ANNEXURE-AFFILIATE.md)),
+the AUSTRALIA annexure ([LICENSE-ANNEXURE-AUSTRALIA.md](LICENSE-ANNEXURE-AUSTRALIA.md)),
 and the AI-TRAINING-POLICY ([AI-TRAINING-POLICY.md](AI-TRAINING-POLICY.md)).
 Each additional instrument is independently severable: it operates alongside
 the LICENSE, is not incorporated into the BUSL-1.1 grant, and a holding that
@@ -21,8 +21,8 @@ Grant, or any other instrument.
 | File | Purpose |
 |------|---------|
 | [`LICENSE`](LICENSE) | Business Source License 1.1 (BUSL-1.1) -- verbatim frame, four parameters, and the Additional Use Grant |
-| [`LICENSE-RIDER-AFFILIATE.md`](LICENSE-RIDER-AFFILIATE.md) | Affiliate / corporate-group terms (separable rider) |
-| [`LICENSE-RIDER-AUSTRALIA.md`](LICENSE-RIDER-AUSTRALIA.md) | Australian-law overlay (separable rider) |
+| [`LICENSE-ANNEXURE-AFFILIATE.md`](LICENSE-ANNEXURE-AFFILIATE.md) | Affiliate / corporate-group terms (separable annexure) |
+| [`LICENSE-ANNEXURE-AUSTRALIA.md`](LICENSE-ANNEXURE-AUSTRALIA.md) | Australian-law overlay (separable annexure) |
 | [`AI-TRAINING-POLICY.md`](AI-TRAINING-POLICY.md) | AI / Machine Learning terms (separate, severable instrument) |
 | [`COMMERCIAL.md`](COMMERCIAL.md) | Commercial licensing requirements and corporate group rules |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contribution guidelines (DCO, Conventional Commits, semantic-release) |
@@ -49,8 +49,8 @@ These files are the canonical source for all HyperI repositories. To set up a ne
 # Clone and copy to your new repository
 git clone https://github.com/hyperi-io/licensing.git /tmp/licensing
 cp /tmp/licensing/LICENSE /tmp/licensing/COMMERCIAL.md \
-   /tmp/licensing/LICENSE-RIDER-AFFILIATE.md \
-   /tmp/licensing/LICENSE-RIDER-AUSTRALIA.md \
+   /tmp/licensing/LICENSE-ANNEXURE-AFFILIATE.md \
+   /tmp/licensing/LICENSE-ANNEXURE-AUSTRALIA.md \
    /tmp/licensing/CONTRIBUTING.md /tmp/licensing/SECURITY.md \
    /tmp/licensing/AI-TRAINING-POLICY.md /tmp/licensing/robots.txt \
    /path/to/new-repo/
@@ -68,13 +68,13 @@ in your package metadata:
 ```toml
 [project]
 license = "LicenseRef-BUSL-1.1-HyperI"
-license-files = ["LICENSE", "LICENSE-RIDER-AFFILIATE.md", "LICENSE-RIDER-AUSTRALIA.md", "COMMERCIAL.md", "AI-TRAINING-POLICY.md"]
+license-files = ["LICENSE", "LICENSE-ANNEXURE-AFFILIATE.md", "LICENSE-ANNEXURE-AUSTRALIA.md", "COMMERCIAL.md", "AI-TRAINING-POLICY.md"]
 classifiers = ["License :: Other/Proprietary License"]
 
 [project.urls]
 "License" = "https://github.com/hyperi-io/licensing/blob/main/LICENSE"
-"Affiliate Rider" = "https://github.com/hyperi-io/licensing/blob/main/LICENSE-RIDER-AFFILIATE.md"
-"Australia Rider" = "https://github.com/hyperi-io/licensing/blob/main/LICENSE-RIDER-AUSTRALIA.md"
+"Affiliate Annexure" = "https://github.com/hyperi-io/licensing/blob/main/LICENSE-ANNEXURE-AFFILIATE.md"
+"Australia Annexure" = "https://github.com/hyperi-io/licensing/blob/main/LICENSE-ANNEXURE-AUSTRALIA.md"
 "AI Training Policy" = "https://github.com/hyperi-io/licensing/blob/main/AI-TRAINING-POLICY.md"
 "Commercial Licensing" = "https://github.com/hyperi-io/licensing/blob/main/COMMERCIAL.md"
 ```

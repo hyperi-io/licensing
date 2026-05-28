@@ -1,15 +1,15 @@
 DRAFT v0 -- NOT LEGAL ADVICE -- MUST BE REVIEWED BY AUSTRALIAN COUNSEL BEFORE USE.
 
-# License Rider -- Affiliate
+# License Annexure -- Affiliate
 
 **Licensor: HYPERI PTY LIMITED (ABN 31 622 581 748).**
 
-This Rider supplements the Business Source License 1.1 (the "License") under
+This Annexure supplements the Business Source License 1.1 (the "License") under
 which the Licensed Work is made available, and in particular clarifies the
 scope of the words "your employees and contractors" in the Additional Use
-Grant. This Rider does not amend, and is not incorporated into, the text of
+Grant. This Annexure does not amend, and is not incorporated into, the text of
 the License. It is a separate instrument that operates alongside the License
-and any other Rider. It does not impose any additional restriction on the
+and any other Annexure. It does not impose any additional restriction on the
 rights granted by the License; it only clarifies and, where stated, extends
 who may exercise those rights.
 
@@ -22,7 +22,7 @@ who may exercise those rights.
 
 ## 1. Definitions
 
-In this Rider:
+In this Annexure:
 
 **"Affiliate"** of an entity means any other entity that, directly or
 indirectly, Controls, is Controlled by, or is under common Control with that
@@ -128,37 +128,37 @@ sales@hyperi.io.
 
 ---
 
-## 6. Relationship to the License and other Riders
+## 6. Relationship to the License and other Annexures
 
-This Rider applies alongside the License. It does not enlarge, reduce or alter
+This Annexure applies alongside the License. It does not enlarge, reduce or alter
 the rights granted under the License (including the Additional Use Grant, the
 Change Date, and conversion to the Change License) beyond clarifying who may
 exercise those rights as set out above. The License continues to govern the
-grant of rights in the Licensed Work. Nothing in this Rider is to be construed
+grant of rights in the Licensed Work. Nothing in this Annexure is to be construed
 as a modification of the text of the License.
 
 > Notes on clause 6:
 > - [HYPERI-NOVEL]. Non-interference clause mirroring the Australian-law
->   Rider. Counsel to confirm this Rider sits cleanly beside the License and
+>   Annexure. Counsel to confirm this Annexure sits cleanly beside the License and
 >   is not a prohibited "modification" of the License text (BSL Covenant 4),
 >   and that its clarifications are not construed as part of the Additional
 >   Use Grant in a way that would offend BSL Covenant 2.
 
 ---
 
-## 7. Severability of this Rider
+## 7. Severability of this Annexure
 
-If any provision of this Rider is held to be invalid, void or unenforceable by
+If any provision of this Annexure is held to be invalid, void or unenforceable by
 a court or tribunal of competent jurisdiction, that provision is severed to
-the minimum extent necessary, and the remainder of this Rider, the License,
-the Additional Use Grant, and any other Rider continue in full force and
-effect. The invalidity of any provision of this Rider does not affect the
+the minimum extent necessary, and the remainder of this Annexure, the License,
+the Additional Use Grant, and any other Annexure continue in full force and
+effect. The invalidity of any provision of this Annexure does not affect the
 validity or enforceability of the License, the Additional Use Grant, or any
-other Rider.
+other Annexure.
 
 > Notes on clause 7:
 > - [HYPERI-NOVEL on structure, BORROWED on standard severability wording].
->   This is the Rider's own severability ring-fence: a strike-down inside this
->   Rider cannot cascade into the License, the Additional Use Grant, or the
->   other Riders. Counsel must confirm the ring-fence holds and that this
->   Rider is treated as a severable instrument separate from the License.
+>   This is the Annexure's own severability ring-fence: a strike-down inside this
+>   Annexure cannot cascade into the License, the Additional Use Grant, or the
+>   other Annexures. Counsel must confirm the ring-fence holds and that this
+>   Annexure is treated as a severable instrument separate from the License.

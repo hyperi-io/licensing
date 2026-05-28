@@ -45,8 +45,8 @@ Per-repo parameters each consuming repository MUST set:
 Additional instruments (each independently severable, each OUTSIDE this
 License text, none incorporated as a condition of the BSL grant):
 
-  - LICENSE-RIDER-AFFILIATE.md   (affiliate / corporate-group terms)
-  - LICENSE-RIDER-AUSTRALIA.md   (Australian-law overlay)
+  - LICENSE-ANNEXURE-AFFILIATE.md   (affiliate / corporate-group terms)
+  - LICENSE-ANNEXURE-AUSTRALIA.md   (Australian-law overlay)
   - AI-TRAINING-POLICY.md        (AI / machine-learning terms)
 
 COUNSEL FLAGS in this file:
