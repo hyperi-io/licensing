@@ -1,79 +1,11 @@
-DRAFT v0 -- NOT LEGAL ADVICE -- MUST BE REVIEWED BY AUSTRALIAN COUNSEL BEFORE USE.
-
-=============================================================================
-HOW TO USE THIS FILE (adopter / per-repo notes -- NOT part of the License)
-=============================================================================
-
-This file is the Single Source of Truth (SSoT) template for the HyperI
-Business Source License 1.1 (BUSL-1.1) community licence. Each consuming
-repository copies this file and fills in the per-repo parameters described
-below. The text BELOW the line "=== BEGIN LICENSE ===" is the canonical
-Business Source License 1.1, reproduced verbatim, with ONLY the adopter
-parameter fields filled in (the four BSL parameters plus the Additional Use
-Grant). Do not edit any other word of the License body: BSL Covenant 4
-forbids modifying the License text in any other way.
-
-Per-repo parameters each consuming repository MUST set:
-
-  Licensor:        Fixed for all HyperI repos --
-                   HYPERI PTY LIMITED (ABN 31 622 581 748).
-
-  Licensed Work:   Set per repo. Replace the placeholder
-                   <LICENSED WORK: [repository name], Copyright (c) [year]
-                   HYPERI PTY LIMITED> with the repository / product name and
-                   the copyright year of that version's release. Example:
-                   "HyperI Example 1.4. The Licensed Work is (c) 2026
-                   HYPERI PTY LIMITED."
-
-  Change Date:     Set per VERSION, NOT once per repo. The rule is a rolling,
-                   per-version Change Date equal to that version's release
-                   date plus THREE (3) YEARS. The BSL frame caps the Change
-                   Date at the fourth anniversary of first publication
-                   (see the "fourth anniversary" sentence in the Terms); a
-                   shorter Change Date is permitted, and HyperI deliberately
-                   chooses 3 years. Because "This License applies separately
-                   for each version of the Licensed Work and the Change Date
-                   may vary for each version" (Terms), each released version
-                   carries its own Change Date = its release date + 3 years.
-                   Release dates are recorded in the GitHub release history.
-                   Set the Change Date field below to the concrete calendar
-                   date (release date + 3 years) for the version being
-                   shipped.
-
-  Change License:  Fixed for all HyperI repos -- Apache License, Version 2.0.
-
-Additional instruments (each independently severable, each OUTSIDE this
-License text, none incorporated as a condition of the BSL grant):
-
-  - LICENSE-ANNEXURE-AFFILIATE.md   (affiliate / corporate-group terms)
-  - LICENSE-ANNEXURE-AUSTRALIA.md   (Australian-law overlay)
-  - AI-TRAINING-POLICY.md        (AI / machine-learning terms)
-
-COUNSEL FLAGS in this file:
-  - The Additional Use Grant below is the ONE HyperI-novel splice. It is
-    marked inline [HYPERI-NOVEL -- COUNSEL MUST BLESS].
-  - The "License text copyright (c) 2017 MariaDB Corporation Ab" line and the
-    trademark line are reproduced from the SPDX-registered BUSL-1.1 text and
-    the CockroachDB v21.2.0 BSL.txt (both carry the 2017 MariaDB Corporation
-    Ab form). The live mariadb.com/bsl11 page now renders "(c) 2024 MariaDB
-    plc". Counsel must confirm which form is canonical for HyperI; the
-    2017 form is reproduced here because it is the stable SPDX BUSL-1.1
-    boilerplate and matches real adopter files.
-  - License text is reproduced with straight ASCII quotation marks. The
-    canonical source renders typographic (curly) quotation marks in the
-    defined-term quotes and apostrophes. The normalisation to ASCII is
-    cosmetic and changes no operative word; counsel may restore typographic
-    quotes if preferred.
-
-=== BEGIN LICENSE ===
-
 Business Source License 1.1
 
 Parameters
 
 Licensor:             HYPERI PTY LIMITED (ABN 31 622 581 748)
-Licensed Work:        <LICENSED WORK: [repository name], Copyright (c) [year] HYPERI PTY LIMITED>
-                      The Licensed Work is (c) [year] HYPERI PTY LIMITED.
+Licensed Work:        The software, source code, documentation, and associated
+                      materials in this repository. The Licensed Work is (c)
+                      2026 HYPERI PTY LIMITED.
 Additional Use Grant: You may make use of the Licensed Work, provided that
                       you may not use the Licensed Work for a Hosted
                       Service.
@@ -85,40 +17,12 @@ Additional Use Grant: You may make use of the Licensed Work, provided that
                       the service provides those third parties with access
                       to a substantial set of the features or functionality
                       of the Licensed Work.
-                      [HYPERI-NOVEL -- COUNSEL MUST BLESS: the only
-                      adopter-novel content in this License. Built on the
-                      verbatim CockroachDB BSL 1.1 Additional Use Grant
-                      skeleton (the "You may make use ... provided that you
-                      may not use ... for a [term]. A '[term]' is a
-                      commercial offering that allows third parties (other
-                      than your employees and contractors) to access the
-                      functionality of the Licensed Work" sentence, kept
-                      word-for-word including the employee/contractor
-                      carve), with two changes: (1) the defined term
-                      "Database Service" renamed to "Hosted Service"; and
-                      (2) the CockroachDB database-specific tail "by creating
-                      tables whose schemas are controlled by such third
-                      parties" replaced with a service-provision tail adapted
-                      from the Elastic License 2.0 hosted/managed-service
-                      limitation. This Additional Use Grant contains ONLY the
-                      service-provision scope limit. It contains NO affiliate,
-                      Australian-law, or AI terms -- BSL Covenant 2 requires
-                      the Additional Use Grant not to impose additional
-                      restrictions, so those terms live in the separable
-                      instruments listed in the adopter notes above, never
-                      in this Grant. Counsel must (a) confirm this boundary
-                      reads as a scope limit on the Grant (permissible) and
-                      not as an additional restriction on the base grant
-                      (forbidden by Covenant 2), and (b) decide whether to
-                      define "a substantial set of the features or
-                      functionality" or accept that inherited ambiguity.]
 
-Change Date:          [CHANGE DATE: this version's release date plus 3 years, e.g. YYYY-MM-DD]
+Change Date:          The third anniversary of the first publicly available
+                      distribution of the specific version of the Licensed Work
+                      under this License.
 
 Change License:       Apache License, Version 2.0
-
-For information about alternative licensing arrangements for the Licensed Work,
-please see COMMERCIAL.md or contact sales@hyperi.io.
 
 Notice
 

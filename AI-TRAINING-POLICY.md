@@ -1,5 +1,3 @@
-DRAFT v0 -- NOT LEGAL ADVICE -- MUST BE REVIEWED BY AUSTRALIAN COUNSEL BEFORE USE.
-
 # AI / Machine Learning Training Policy
 
 **HYPERI PTY LIMITED (ABN 31 622 581 748)**
@@ -14,8 +12,7 @@ LIMITED and its related entities (collectively "HyperI").
 NOT incorporated into, and are NOT a condition of, the grant under the
 Business Source License 1.1 (the "License") in the [LICENSE](LICENSE) file.**
 The License text contains no AI or machine-learning terms. This policy stands
-alongside the License and the other separable instruments (the Affiliate
-Annexure and the Australia Annexure).
+alongside the License and the Affiliate Annexure.
 
 ## No AI Training
 
@@ -55,10 +52,10 @@ The following uses are permitted without additional consent:
   Claude, ChatGPT) to assist with writing code that interacts with or extends
   the Materials, provided the Materials themselves are not used as training
   data for those tools
-- **All uses permitted under the LICENSE** -- any use permitted by the
-  Business Source License 1.1 and its Additional Use Grant, as described in
-  the [LICENSE](LICENSE) file, except that such permitted uses do not extend
-  to the AI / machine-learning uses prohibited by this policy
+- **License-governed use** -- Uses permitted by the Business Source License
+  1.1 and its Additional Use Grant remain governed by the [LICENSE](LICENSE)
+  file. This policy is separate and does not amend, narrow, or condition that
+  grant.
 
 ## Web Crawlers
 
@@ -89,23 +86,18 @@ Any person or organisation found to be in violation of this policy may be
 subject to legal action and may be held liable for any resulting damages.
 
 This policy is a separate instrument that operates alongside the
-[LICENSE](LICENSE) file, the Affiliate Annexure, and the Australia Annexure. It is
-not incorporated into the License and is not a condition of the grant under
-the License.
+[LICENSE](LICENSE) file and the Affiliate Annexure. It is not incorporated into
+the License and is not a condition of the grant under the License.
 
 ## Severability
 
-These AI terms are a separate instrument. If any AI provision is held invalid
-or unenforceable, that holding does not affect the validity or enforceability
-of the License, the Additional Use Grant, or any other Annexure.
-
-## Applicable Law
-
-This policy is governed by the laws of the Australian Capital Territory,
-Australia. The Australian-law overlay applicable to HyperI's licensing
-(including the Australian Consumer Law position, the section 64A liability
-limitation, and dispute resolution) is set out in the separable Australia
-Annexure (LICENSE-ANNEXURE-AUSTRALIA.md).
+These AI terms are a separate instrument. If any provision of this policy is
+held invalid, void or unenforceable by a court or tribunal of competent
+jurisdiction, that provision is severed to the minimum extent necessary, and
+the remainder of this policy, the License, the Additional Use Grant, and any
+other Annexure continue in full force and effect. The invalidity of any
+provision of this policy does not affect the validity or enforceability of the
+License, the Additional Use Grant, or any other Annexure.
 
 ## Contact
 
