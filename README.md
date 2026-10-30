@@ -1,3 +1,4 @@
+<!-- DO NOT EDIT. Published from hyperi-io/hyperi-licensing public/licensing/README.md. Change it there: the next sync overwrites edits made here. -->
 # HyperI Licensing
 
 **Single Source of Truth** for standard licensing, contribution, and security policy files included in every HyperI GitHub repository.

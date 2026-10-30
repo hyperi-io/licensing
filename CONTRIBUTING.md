@@ -1,3 +1,4 @@
+<!-- DO NOT EDIT. Published from hyperi-io/hyperi-licensing public/licensing/CONTRIBUTING.md. Change it there: the next sync overwrites edits made here. -->
 # Contributing
 
 We welcome contributions to this project. By contributing, you agree to the

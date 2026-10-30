@@ -1,3 +1,4 @@
+# DO NOT EDIT. Published from hyperi-io/hyperi-licensing public/licensing/robots.txt. Change it there: the next sync overwrites edits made here.
 # robots.txt — HyperI AI Training Crawler Blocklist
 #
 # This file blocks known AI model training crawlers while permitting

@@ -1,3 +1,4 @@
+<!-- DO NOT EDIT. Published from hyperi-io/hyperi-licensing public/licensing/SECURITY.md. Change it there: the next sync overwrites edits made here. -->
 # Security Policy
 
 ## Reporting a Vulnerability
