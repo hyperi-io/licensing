@@ -25,6 +25,7 @@ applies. It is not part of the default public license grant.
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contribution guidelines (DCO, Conventional Commits, semantic-release) |
 | [`SECURITY.md`](SECURITY.md) | Vulnerability disclosure policy |
 | [`robots.txt`](robots.txt) | AI training crawler blocklist (permits standard search indexing) |
+| [`third-party/`](third-party) | GPL and LGPL texts, verbatim from SPDX license-list-data v3.29.0, for the THIRD-PARTY-NOTICES hyperi-ci generates. Not HyperI licences |
 
 ## License Summary
 
